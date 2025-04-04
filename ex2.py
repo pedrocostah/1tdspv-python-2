@@ -1,10 +1,10 @@
-gols_a = int(input("Gols do time A: "))
-gols_b = int(input("Gols do time B: "))
+num_a = int(input("qual o número a: "))
+num_b = int(input("qual o número b: "))
 
-if gols_a > gols_b:
-    print(f"o time A ganho: {gols_a} x {gols_b}")
-elif gols_a < gols_b:
-    print(f"Time B ganhou: {gols_a} x {gols_b}")
+if num_a > num_b:
+    print(f"{num_a} é maior")
+elif num_a < num_b:
+    print(f"{num_b} é maior")
 else:
-    print(f"Os dois times empataram {gols_a} x {gols_b}")
+    print(f"Os dois números empataram {gols_a} x {gols_b}")
 
